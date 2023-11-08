@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Funtasy</title>
+    <link rel="shortcut icon" type="imagex/png" href="IMAGENS SITE/Icone.site.ico">
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-image: url('IMAGENS SITE/game-dungeons-and-dragons-hydra-tiamat-dungeons-and-dragons-wallpaper-preview.jpg');
+        background-size: 102%;
+
+    }
+</style>
+
+<body>
+
+
+
+    
+    <div class="main-login">
+
+        <div class="left-login">
+            <img src="IMAGENS SITE/title.png" width="250" height="75">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <div class="inter-login">
+                    <h1>Login</h1>
+                    <div class="textfield">
+                        <div><label for="usuario" style="color: blanchedalmond;">Usuário</label></div>
+
+                        <input type="email" name="email" style="color: blanchedalmond;" id="email" onchange="onChangeEmail()" placeholder="Usuário">
+
+                        <div class="error" id="email-required-error">Email é obrigatório</div>
+                        <div class="error" id='email-valid-error'>Email é inválido</div>
+                    </div>
+                    <div class="textfield">
+                        <div><label for="Senha" style="color: blanchedalmond;">Senha</label></div>
+
+                        <input type="password"  id="password" onchange="onChangePassword()"  style="color: blanchedalmond;" name="Senha" id="" placeholder="Digite sua Senha">
+
+                        <div class="error" id="password-required-error">Senha é obrigatório</div>
+                    </div>
+                    <div>
+                        <button type="button" id="login-button" value="Login" class="btn-login"  disabled="true" style="color: blanchedalmond;">Login</button></a>
+                    </div>
+                     <div>
+                        <a href="file:///D:/!PROJETO%20INTEGRADOR/cadastro.html"><button class="btn-cadastro"  style="color: blanchedalmond;">Cadastro</button></a>
+                     </div>
+                    <div>
+                        <a href="file:///D:/!PROJETO%20INTEGRADOR/recuperarSenha.html"><button class="btn-esqueceu-senha" id="recover-password-button" disabled="true" style="color: blanchedalmond;">Recuperar Senha</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<script src="login.js"></script>
+
+</html>
