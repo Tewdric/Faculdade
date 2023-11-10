@@ -30,6 +30,7 @@
 }
 
 .right-login h1{
+    font-family: system-ui;
     color:blanchedalmond ;
     
 }
@@ -53,7 +54,7 @@
     align-items: center;
     flex-direction: column;
     padding: 60px 20px;
-    background-color:rgb(24, 24, 24) ;
+    background-color:rgba(24, 24, 24, 0.795) ;
     border-radius: 10px;
     box-shadow: 0px 10px 40px  #aa6702;
     
@@ -66,10 +67,12 @@
     align-items: flex-start;
     justify-content: center;
     margin: 5px 0px;
+    font-family: system-ui;
 
 }
 
 .textfield > input{
+    font-family: system-ui;
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -84,10 +87,15 @@
 button[disabled]{
     opacity: 0.7;
 }
-
+button:hover{
+    background-color: #8b5606;
+    transition: 10ms;
+    font-family: system-ui;
+}
 .btn-login{
     width: 100px;
-    padding: 16px 0px;
+    height: 5vh;
+
     margin: 15px;
     border: none;
     border-radius: 10px;
@@ -109,12 +117,14 @@ button[disabled]{
     box-shadow: 0px 10px 20px -5px #000000;
     text-transform: uppercase;
     cursor: pointer;
+    height: 5vh;
     font-weight: 600;
 }
 
 .btn-esqueceu-senha{
     width: 30vh;
     padding: 5px 0px;
+    height: 5vh;
     margin: 5px;
     border: none;
     border-radius: 10px;
