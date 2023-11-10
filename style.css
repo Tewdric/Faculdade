@@ -94,7 +94,8 @@ button:hover{
 }
 .btn-login{
     width: 100px;
-    padding: 16px 0px;
+    height: 5vh;
+
     margin: 15px;
     border: none;
     border-radius: 10px;
