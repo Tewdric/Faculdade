@@ -1,3 +1,12 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('IMAGENS SITE/game-dungeons-and-dragons-hydra-tiamat-dungeons-and-dragons-wallpaper-preview.jpg');
+    background-size: 102%;
+
+}
+
 .caixa-principal{
     width: 100vw;
     height: 95vh;
@@ -21,14 +30,14 @@
 }
 
 .inter-registro{
-    width: 105%;
+    width: 80%;
     height: 60%;
     display: flex;
     justify-content:center;
     align-items: center;
     flex-direction: column;
     padding: 100px 19px;
-    background-color:rgb(24, 24, 24) ;
+    background-color:rgba(24, 24, 24, 0.712) ;
     border-radius: 10px;
     box-shadow: 0px 10px 40px  #aa6702;
     
@@ -42,15 +51,18 @@
     align-items: flex-start;
     justify-content: center;
     box-sizing: border-box;
+    font-family: system-ui;
    
 }
 
 .inter-registro > h1{
     margin: 5px ;
+    font-family: system-ui;
     box-sizing: border-box;
 }
 .textfield2 > input{
     width: 100%;
+    font-family: system-ui;
     border: none;
     border-radius: 10px;
     padding: 10px;
@@ -63,7 +75,8 @@
 }
 
 .bnt-registro{
-    width: 90%;
+    font-family: system-ui;
+    width: 60%;
     padding: 16px 0px;
     margin: 15px;
     border: none;
@@ -77,12 +90,17 @@
     box-sizing: border-box;
     
 }
+.bnt-registro:hover{
+    background-color: #8b5606;
+    transition: 10ms;
+}
 
 .bnt-home{
     width: 20vh; 
     padding: 8px 0px;
     margin: 5px;
     border: none;
+    font-family: system-ui;
     border-radius: 10px;
     background-color: #aa6702;
     box-shadow: 0px 10px 20px -5px #000000;
@@ -94,6 +112,11 @@
     color: blanchedalmond;  
     
 }
+.bnt-home:hover{
+    background-color: #8b5606;
+    transition: 10ms;
+}
+
 @media only screen and (max-width: 950px){
     .card-registro{
         width: 40%;
@@ -106,6 +129,14 @@
         height: 66%;
         padding: 107px 18px;
     }
+    
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('IMAGENS SITE/game-dungeons-and-dragons-hydra-tiamat-dungeons-and-dragons-wallpaper-preview.jpg');
+    background-size: cover;
+
+}
 
 }
 
