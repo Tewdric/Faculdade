@@ -116,6 +116,7 @@ button:hover{
     box-shadow: 0px 10px 20px -5px #000000;
     text-transform: uppercase;
     cursor: pointer;
+    height: 5vh;
     font-weight: 600;
 }
 
